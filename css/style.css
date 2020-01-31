@@ -234,7 +234,9 @@ p {
     color: #ffffff;
 
 }
-
+.upper_header_part .uh_sicon{
+    float: right;
+}
 .upper_header_part .uh_sicon ul {
     float: right;
     list-style-type: none;
@@ -320,6 +322,7 @@ p {
     background-position: bottom;
     background-attachment: fixed;
     min-height: 600px;
+    width: 100%;
     position: relative;
 }
 
@@ -385,7 +388,7 @@ p {
 }
 
 .aboutMe .about_content h3 {
-    color: #ffffff;
+    color: #b3b3b3;
     padding-bottom: 30px;
 }
 
@@ -401,18 +404,19 @@ p {
     font-weight: 500;
 }
 
-.aboutMe .ac_cv1 pre {
+.aboutMe .ac_cv1 {
     padding-top: 50px;
 }
 
 .aboutMe .ac_cv1 p {
-    line-height: 0px;
+ 
     font-weight: 500;
     font-size: 17px;
 }
 
 .about_button {
     text-align: center;
+    padding-top: 50px;
 }
 
 .about_button button {
@@ -421,7 +425,7 @@ p {
     color: #83a8ef;
     border: 2px solid #83a8ef;
     margin-right: 120px;
-    float: left !important;
+    float: left ;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -576,14 +580,7 @@ p {
 }
 
 .skill_content_position .skill_content {
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
+   margin-top: 150px;
 }
 
 .skill_content_position .skill_content h5 {
@@ -708,7 +705,7 @@ p {
 }
 
 .my_achivement .acgievement_cnt .achievement_content {
-    margin-left: -85px;
+    margin-left: -60px;
 }
 
 .my_achivement .acgievement_cnt .achievement_content h6 {
